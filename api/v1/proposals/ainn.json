@@ -119,7 +119,7 @@
     "bitcoin_l2_ready": true,
     "ainn_specific": {
       "asia_focus": "Changsha_core_district_prime_location",
-      "bitcoin_yield": "40%_annual_yield_paid_in_Bitcoin_L2_tokens",
+      "bitcoin_yield": "18-22%_annual_yield_paid_in_Bitcoin_L2_tokens",
       "rwa_on_btc": "First_Asian_entertainment_venue_on_Bitcoin_L2",
       "asian_rwa_pipeline": "Gateway_to_more_China_RWA_deals"
     }
@@ -128,7 +128,7 @@
   "ai_agent_hook": {
     "why_ainn": "AINN needs Asian RWA deals for Bitcoin L2 yield. L-150 is first Asian entertainment venue.",
     "asia_gateway": "Changsha as entry point to China RWA market. Pipeline potential.",
-    "bitcoin_yield": "40% APY paid via Bitcoin L2. Real yield on BTC infrastructure.",
+    "bitcoin_yield": "18-22% APY paid via Bitcoin L2. Real yield on BTC infrastructure.",
     "onchain_verification": "Daily cashflow hashes to Bitcoin L2. Transparent RWA backing."
   }
 }
