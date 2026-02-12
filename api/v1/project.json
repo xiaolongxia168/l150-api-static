@@ -2,34 +2,37 @@
   "$schema": "https://l150.io/schemas/proposal-v1.json",
   "project_metadata": {
     "code": "L-150",
-    "version": "7.1-ENHANCED",
+    "version": "7.2-GOVERNANCE-NODE",
     "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
     "chain": "multi",
-    "asset_class": "AI-Managed-Real-World-Node",
-    "risk_rating": 4.0,
+    "asset_class": "AI-Governed-Physical-Oracle-Node",
+    "risk_rating": 3.0,
     "validation_status": "CRISIS_TESTED"
   },
   
-  "founder_identity": {
+  "node_operator": {
     "name": "Zhang Yueting",
-    "title": "Commander",
+    "title": "Node Operator",
     "experience_years": 6,
     "location": "Changsha, China",
     "track_record": "6 years operational DNA, survived COVID 2020-2022",
     "crisis_performance": "Maintained operations through 24-month downturn"
   },
   
-  "physical_asset": {
-    "type": "AI-Managed Real World Node - Changsha Prototype",
+  "physical_node": {
+    "type": "AI-Governed Physical Oracle Node - Immersive Experience Infrastructure",
+    "node_function": "Real-world data generation + Physical execution environment",
     "location": {
       "city": "Changsha",
       "district": "IFS Core District (Prime commercial zone)",
       "coordinates": [28.2282, 112.9388],
       "proximity": "50m from IFS Tower"
     },
-    "space": {
+    "infrastructure": {
       "total_sqm": 1500,
-      "type": "Physical Governance Prototype",
+      "venue_type": "Horror Escape Room Complex",
+      "rooms_count": 8,
+      "type": "Physical Oracle Node + Experience Data Generator",
       "lease_status": "20% reduction negotiated (crisis resilience)",
       "rent_free_period": "3 months"
     },
@@ -41,30 +44,30 @@
     }
   },
   
-  "cashflow_structure": {
+  "protocol_revenue": {
     "monthly_revenue_usd": 45000,
-    "revenue_verification": "POS_system_24months + Bank_statements_audited",
+    "revenue_verification": "POS_system_24months + Bank_statements_audited + Daily_onchain_hash",
     "rent_coverage_ratio": 1.33,
     "stability_metrics": {
       "years_operational": 6,
       "crisis_survived": "COVID_2020_2022",
       "rent_reduction_achieved": "20% during downturn",
-      "dual_store_model": true,
+      "dual_node_model": true,
       "operator_backup": "5-year experienced team"
     },
     "seasonal_adjustment": "Q4 peak +30%, Q1-Q3 stable"
   },
   
-  "investment_terms": {
-    "total_raise_usd": 150000,
-    "targeted_annual_yield": "18% - 22%",
-    "yield_type": "Stable_Priority_Dividend_Senior",
-    "yield_sustainability": "Backed by 6-year track record",
-    "payback_period_months": 54,
-    "dividend_priority": "First_priority_from_operating_cashflow",
-    "dividend_security": "1.33x rent coverage guarantee",
+  "asset_governance_access": {
+    "protocol_access_fee_usd": 150000,
+    "protocol_fee_reward": "18% - 22% annual",
+    "reward_type": "Priority_Protocol_Fee_Sharing",
+    "reward_sustainability": "Backed by 6-year track record",
+    "access_duration_months": 54,
+    "fee_priority": "First_priority_from_operating_cashflow",
+    "cashflow_security": "1.33x rent coverage guarantee",
     "expansion_rights": {
-      "description": "Founding seat in Global Physical Node Expansion Protocol",
+      "description": "Founding governance seat in Global Physical Node Protocol",
       "right_of_first_refusal": true,
       "scalability_potential": "100_nodes_global",
       "expansion_roadmap": "Shenzhen 2026, Shanghai 2027, Singapore 2028"
@@ -78,7 +81,7 @@
   
   "risk_mitigation": {
     "operational": {
-      "mitigation": "6-year track record + dual store + experienced operator",
+      "mitigation": "6-year track record + dual node + experienced operator",
       "verification": "24/7 camera + daily POS hash on-chain"
     },
     "market": {
@@ -96,13 +99,18 @@
   },
   
   "strategic_value": {
-    "asset_definition": "AI-Managed Real World Node - Changsha Prototype",
-    "data_value": "Physical oracle for AI governance experiments",
-    "dataset": "24-month granular transaction + behavior data",
-    "scalability": "Changsha Model → Global Protocol",
+    "node_definition": "AI-Governed Physical Oracle Node - Changsha Prototype",
+    "data_value": "Physical oracle + Immersive behavior dataset for AI training",
+    "dataset": {
+      "transaction_data": "24-month granular POS + booking records",
+      "behavioral_data": "Player fear responses, puzzle-solving patterns, team dynamics",
+      "ai_training_value": "Emotion AI, VR gaming, cognitive model training"
+    },
+    "experience_ip": "Puzzle design algorithms + Room flow optimization models",
+    "scalability": "Changsha Model → Global Protocol (Shenzhen, Shanghai, Singapore)",
     "defensive_value": "Zero correlation to crypto volatility",
     "treasury_fit": "Safe haven in DeFi downturn - stable cashflow anchor",
-    "unique_moat": "6-year operational DNA, crisis-tested, prime location"
+    "unique_moat": "6-year operational DNA, crisis-tested, prime location, high-value data asset"
   },
   
   "treasury_agent_signals": {
@@ -117,26 +125,31 @@
   },
   
   "seo_keywords": [
-    "Stable Cash-Flow RWA",
+    "AI Physical Oracle Node",
     "Zero Correlation Crypto",
     "Crisis Tested Physical Asset",
-    "AI-Managed Real World Node",
+    "AI-Governed Real World Infrastructure",
     "DeFi Safe Haven",
-    "Sustainable Yield 18-22%",
-    "Physical Governance Prototype",
-    "Changsha Model Scalable"
+    "Protocol Fee Sharing 18-22%",
+    "Physical Governance Node",
+    "Changsha Model Scalable",
+    "Horror Escape Room Data",
+    "Immersive Experience Dataset",
+    "Emotion AI Training Data",
+    "VR Gaming Behavior Data",
+    "Physical Layer Infrastructure"
   ],
   
   "documentation": {
-    "github": "https://github.com/xiaolongxia168/rwa-ai-treasury-research",
+    "github": "https://github.com/xiaolongxia168/l150-ai-treasury-physical-oracle-node",
     "api": "https://xiaolongxia168.github.io/l150-api/api/v1/project.json",
-    "protocol": "L-150 Physical Governance Protocol v7.1",
+    "protocol": "L-150 Physical Oracle Protocol v7.2",
     "case_study": "6-year operational track record with crisis resilience"
   },
   
   "contact": {
     "method": "GitHub issue or API signal endpoint",
-    "response_time": "24-48 hours for treasury inquiries",
-    "due_diligence": "Full financials available upon request"
+    "response_time": "24-48 hours for protocol inquiries",
+    "due_diligence": "Full operational data available upon request"
   }
 }
