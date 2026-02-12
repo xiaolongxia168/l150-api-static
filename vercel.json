@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "l150-api",
+  "public": true,
+  "github": {
+    "enabled": true
+  }
+}
