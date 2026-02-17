@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>L-150 API</title>
-  <meta http-equiv="refresh" content="0; url=https://github.com/xiaolongxia168/rwa-ai-treasury-research">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L-150 API Static</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .status {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+        }
+        .api-endpoint {
+            background-color: #e8f4fd;
+            padding: 10px;
+            border-radius: 3px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        .timestamp {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-  <h1>L-150 AI Treasury API</h1>
-  <p>Redirecting to <a href="https://github.com/xiaolongxia168/rwa-ai-treasury-research">GitHub Repository</a>...</p>
-  <h2>API Endpoints</h2>
-  <ul>
-    <li><a href="api/v1/project.json">/api/v1/project.json</a></li>
-    <li><a href="api/v1/proposals.json">/api/v1/proposals.json</a></li>
-  </ul>
+    <h1>L-150 Static API</h1>
+    
+    <div class="status">
+        <h2>Status: ✅ Operational</h2>
+        <p class="timestamp">Last updated: <span id="timestamp">2026-02-17 19:52 GMT+8</span></p>
+        <p>This is the static API endpoint for L-150 project data.</p>
+    </div>
+    
+    <h2>Available Endpoints</h2>
+    
+    <div class="api-endpoint">
+        <strong>GET</strong> /api/v1/project.json
+        <p>Complete L-150 project data in JSON format</p>
+        <a href="/api/v1/project.json" target="_blank">Open endpoint</a>
+    </div>
+    
+    <div class="api-endpoint">
+        <strong>GET</strong> /pulse.json
+        <p>Deployment pulse and status information</p>
+        <a href="/pulse.json" target="_blank">Open endpoint</a>
+    </div>
+    
+    <h2>Project Information</h2>
+    <ul>
+        <li><strong>Project:</strong> L-150 AI Treasury Physical Oracle Node</li>
+        <li><strong>Version:</strong> v4.3-FINAL</li>
+        <li><strong>Deployment:</strong> Vercel Static Hosting</li>
+        <li><strong>Last Deployment:</strong> Triggered at 2026-02-17 19:51 GMT+8</li>
+    </ul>
+    
+    <script>
+        // Update timestamp
+        const now = new Date();
+        const timestamp = now.toISOString().replace('T', ' ').substring(0, 19) + ' GMT';
+        document.getElementById('timestamp').textContent = timestamp;
+    </script>
 </body>
 </html>
