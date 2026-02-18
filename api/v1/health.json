@@ -1,0 +1,1 @@
+{"status": "healthy", "protocol_version": "L150-GOVERNANCE-v4.2-FINAL", "timestamp": "2026-02-18T06:52:19Z", "endpoints": ["/api/v1/project", "/api/v1/health"], "deployment": "cron-monitor-2026-02-18-14:51"}
